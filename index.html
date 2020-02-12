@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product Landing Page</title>
+</head>
+    
+
+<link rel="stylesheet" href="styles.css" />
+
+<div class="main" />
+<header id="header">
+    <div id="header-img" ><img src="image/logo-web-component.svg" height="50px"></div>
+    <h1>Hostour</h1>
+    
+    <nav id="nav-bar">
+        <ul>
+            <span><a class="nav-link" href="#form">Free Trial</a></span>
+            <span><a class="nav-link" href="#features">Features</a></span>
+            <span><a class="nav-link" href="#pricing">Pricing</a></span>
+            <span><a class="nav-link" href="#faq">F.A.Q</a></span>
+        </ul>
+    </nav>
+</header>
+</div>
+
+
+<body>
+    <div class="video-container">
+    <video id="video" src="image/zip_coverr-boy-working-on-cafe-1565508732487/coverr-boy-working-on-cafe-1565508732487.mp4" height="400">Hosting Review</video>
+    </div>
+    <section id="host">
+        <h2>Host like a PRO.<br/> </br>
+            Get 7 Days free trial NOW.</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input name="email" id="email" type="email" placeholder="Email ID" required />
+
+            <input name="password" id="password" type="password" placeholder="Password" minlength="8" maxlength="32"
+                required />
+
+            <input name="password" id="password" type="password" placeholder="Password" minlength="8" maxlength="32"
+                required />
+
+            
+
+            <input id="register" type="submit" value="Try NOW" class="btn">
+        </form>
+    </section>
+
+    <div class="container">
+        <section id="features">
+            <div class="grid">
+                <div class="icon"><i class="f1"></i></div>
+                <div class="pros">
+                    <h2>99.99% Server Uptime.</h2>
+                    <p>
+                        Our fast & reliable servers provide you No Down solution. So that you can enjoy hosting your
+                        dream websites without any Hustle.
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <i class="f2" aria-hidden="true"></i>
+
+                </div>
+                <div class="pros">
+                    <h2>24 &times; 7 Support</h2>
+                    <p>
+                        Our customer support team is always be there during any circumstances to desolve your problem.
+                    </p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="icon">
+                    <i class="f3" aria-hidden="true"></i>
+
+                </div>
+                <div class="pros">
+                    <h2>SEO based Performance</h2>
+                    <p>
+                        We provide best search engine optimization based hosting that helps your sites to rise in Goolge
+                        search results.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing">
+            <div class="product" id="basic">
+                <div class="prod"><h2> Hosting</h2></div>
+                <h4>7&dollar; per month, 6&dollar; per month on annual plan</h4>
+                <ul>
+                    <li>10 GB SSD</li>
+                    <li>Best for small projects</li>
+                    <li>10,000 page views per day</li>
+                    <li>Limited Resources</li>
+                </ul>
+                <button class="btn b1">Add to Cart</button>
+            </div>
+            <div class="product" id="premium">
+                <div class="prod"><h2>Premium Hosting</h2></div>
+                <h4>14&dollar; per month, 12&dollar; per month on annual plan</h4>
+                <ul>
+                    <li>50 GB SSD</li>
+                    <li>Best for Blogging</li>
+                    <li>50,000 page views per day</li>
+                    <li>Unlimited Resources</li>
+                    <li>2&times; Processing Speed</li>
+                </ul>
+                <button class="btn b2">Add to Cart</button>
+            </div>
+            <div class="product" id="business">
+                <div class="prod"><h2>Business Hosting</h2></div>
+                <h4>29&dollar; per month, 25&dollar; per month on annual plan</h4>
+                <ul>
+                    <li>100 GB SSD</li>
+                    <li>Best for large projects</li>
+                    <li>100,000 page views per day</li>
+                    <li>Unlimited Resources</li>
+                    <li>4&times; Processing Speed</li>
+                    <li>Priority support</li>
+                </ul>
+                <button class="btn b3">Add to Cart</button>
+            </div>
+        </section>
+
+        <section id="faq">
+            <div class="faq">
+                <h2>F.A.Q.</h2>
+                <div class="faq-question">
+                    <h3>Do you provide website builder tool with hosting?</h3>
+                </div>
+                <div>
+                    <p class="faq-answer">Yes, we are with you & provide DIY website builder Tool that supports drag &
+                        drop functionality.</p>
+                </div>
+                <div class="faq-question">
+                    <h3>Do I have access to premium themes from wordpress community?</h3>
+                </div>
+                <div class="faq-answer">
+                    <p>No, we are not associated with any wordpress themes provider that we can provide to you for free.
+                        You have to buy from ThemeStore.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <footer>
+            <ul class="social">
+                <li><a href="#" class="fb"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 512 512">
+                    <title>ionicons-v5_logos</title>
+                    <path
+                        d="M455.27,32H56.73A24.74,24.74,0,0,0,32,56.73V455.27A24.74,24.74,0,0,0,56.73,480H256V304H202.45V240H256V189c0-57.86,40.13-89.36,91.82-89.36,24.73,0,51.33,1.86,57.51,2.68v60.43H364.15c-28.12,0-33.48,13.3-33.48,32.9V240h67l-8.75,64H330.67V480h124.6A24.74,24.74,0,0,0,480,455.27V56.73A24.74,24.74,0,0,0,455.27,32Z" />
+                </svg></a></li>
+                <li><a href="#" class="tweet"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 512 512">
+                    <title>ionicons-v5_logos</title>
+                    <path
+                        d="M496,109.5a201.8,201.8,0,0,1-56.55,15.3,97.51,97.51,0,0,0,43.33-53.6,197.74,197.74,0,0,1-62.56,23.5A99.14,99.14,0,0,0,348.31,64c-54.42,0-98.46,43.4-98.46,96.9a93.21,93.21,0,0,0,2.54,22.1,280.7,280.7,0,0,1-203-101.3A95.69,95.69,0,0,0,36,130.4C36,164,53.53,193.7,80,211.1A97.5,97.5,0,0,1,35.22,199v1.2c0,47,34,86.1,79,95a100.76,100.76,0,0,1-25.94,3.4,94.38,94.38,0,0,1-18.51-1.8c12.51,38.5,48.92,66.5,92.05,67.3A199.59,199.59,0,0,1,39.5,405.6,203,203,0,0,1,16,404.2,278.68,278.68,0,0,0,166.74,448c181.36,0,280.44-147.7,280.44-275.8,0-4.2-.11-8.4-.31-12.5A198.48,198.48,0,0,0,496,109.5Z" />
+                </svg></a></li>
+                <li><a href="#" class="whatsapp"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 512 512">
+                    <title>ionicons-v5_logos</title>
+                    <path
+                        d="M414.73,97.1A222.14,222.14,0,0,0,256.94,32C134,32,33.92,131.58,33.87,254A220.61,220.61,0,0,0,63.65,365L32,480l118.25-30.87a223.63,223.63,0,0,0,106.6,27h.09c122.93,0,223-99.59,223.06-222A220.18,220.18,0,0,0,414.73,97.1ZM256.94,438.66h-.08a185.75,185.75,0,0,1-94.36-25.72l-6.77-4L85.56,427.26l18.73-68.09-4.41-7A183.46,183.46,0,0,1,71.53,254c0-101.73,83.21-184.5,185.48-184.5A185,185,0,0,1,442.34,254.14C442.3,355.88,359.13,438.66,256.94,438.66ZM358.63,300.47c-5.57-2.78-33-16.2-38.08-18.05s-8.83-2.78-12.54,2.78-14.4,18-17.65,21.75-6.5,4.16-12.07,1.38-23.54-8.63-44.83-27.53c-16.57-14.71-27.75-32.87-31-38.42s-.35-8.56,2.44-11.32c2.51-2.49,5.57-6.48,8.36-9.72s3.72-5.56,5.57-9.26.93-6.94-.46-9.71-12.54-30.08-17.18-41.19c-4.53-10.82-9.12-9.35-12.54-9.52-3.25-.16-7-.2-10.69-.2a20.53,20.53,0,0,0-14.86,6.94c-5.11,5.56-19.51,19-19.51,46.28s20,53.68,22.76,57.38,39.3,59.73,95.21,83.76a323.11,323.11,0,0,0,31.78,11.68c13.35,4.22,25.5,3.63,35.1,2.2,10.71-1.59,33-13.42,37.63-26.38s4.64-24.06,3.25-26.37S364.21,303.24,358.63,300.47Z"
+                        style="fill-rule:evenodd" />
+                </svg></a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <span class="mwl">Made with <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 512 512" class="svg">
+                <title>ionicons-v5-f</title>
+                <path
+                    d="M256,448a32,32,0,0,1-18-5.57c-78.59-53.35-112.62-89.93-131.39-112.8-40-48.75-59.15-98.8-58.61-153C48.63,114.52,98.46,64,159.08,64c44.08,0,74.61,24.83,92.39,45.51a6,6,0,0,0,9.06,0C278.31,88.81,308.84,64,352.92,64,413.54,64,463.37,114.52,464,176.64c.54,54.21-18.63,104.26-58.61,153-18.77,22.87-52.8,59.45-131.39,112.8A32,32,0,0,1,256,448Z" />
+            </svg>in India</span>
+            <span class="copyright-symbol">&copy; 2020, Hostour Inc.</span>
+        </footer>
+    </div>
+    <script src="image/ionicons-5.0.0.designerpack."></script>
+</body>
+
+</html>
